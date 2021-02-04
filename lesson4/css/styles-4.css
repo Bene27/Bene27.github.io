@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Playfair+Display:ital@1&display=swap');
+
+img {position: absolute;left: 0%;
+    
+}
+header{background-color:lightblue;
+}
+#heading {font-style: italic;
+          font-size: 45px;
+          font-family:'Lemonada', cursive;
+          text-align: right;
+
+}
+p{font-family:'Playfair Display' , serif;
+ font-size: 30px;
+ font-style: italic;
+}
+
+a:hover{color: red;
+}
+
+footer{background-color: lightblue;
+       text-align: center;
+    }
