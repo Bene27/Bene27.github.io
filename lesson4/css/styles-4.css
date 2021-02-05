@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Playfair+Display:ital@1&display=swap');
 
 img {position: absolute;left: 0%;
+     border-radius: 50%;
+     border-style: solid;
+     border-color: darkblue;
     
 }
 header{background-color:lightblue;

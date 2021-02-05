@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&family=Indie+Flower&family=Londrina+Solid:wght@100&family=Potta+One&family=Sriracha&display=swap');
+
+
+header{font-size:10px;
+        color: darkblue;
+        font-style: italic;
+        font-family: 'Indie Flower', cursive;
+    }
+
+body{background-color: lightblue;
+
+}
+h1{font-style: italic;
+   font-family: 'Hanalei', cursive;
+   font-size: 50px;
+}
+h4{font-style: italic;
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+}
+
+img{align-items: center;
+    border-style:dotted;
+    border-color: black;
+}
+
+p{font-family: 'Potta One', cursive;
+ font-style:italic;
+ font-size: 20p;
+ display: block;
+}
+
+footer {background-color: lightblue;
+        text-align:center;
+        font-family: 'Potta One', cursive;
+}
