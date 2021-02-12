@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemonada&family=Lobster&display=swap');
+          
+
+h1  {font-family:'Lemonada', cursive;
+    color:#03045E;
+}
+
+ul li  {list-style: none;
+        background-color:#0096C7;
+        border-style: solid;
+        padding:0;
+        margin:0;
+}
+
+#hamburger li{display: inline-block;}
+
+#hamburger {display: block;
+              width:100px;
+              padding:25px 20px;
+              text-align: center;
+            }
+
+a:hover{background-color:blue;}
+
+h2{font-family:'Bebas Neue', cursive;
+    color:#023E8A;
+}
+
+p::first-letter {font-size:35px;
+    font-family:'Lemonada', cursive;
+    color:#00B4D0;;
+}
+
+body{background-color:#ADE8F4;
+    font-size:30px;
+    font-family:'Lobster', cursive;
+    display: block;
+}
+
+footer{border: solid;
+    text-align: center;
+    font-size:20px;
+    background-color:#0096C7;
+}
