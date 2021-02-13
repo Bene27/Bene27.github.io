@@ -33,14 +33,14 @@ nav ul {margin-left:2%;
 
 nav ul.hide{display: block;}
 
-
+body{background-color:#ADE8F4;}
 
 p{font-family:'Playfair Display' , serif;
  font-size: 30px;
  font-style: italic;
 }
 
-a:hover{background-color: blue;
+a:hover{background-color:lightskyblue;
 }
 
 footer{background-color:#0096C7;

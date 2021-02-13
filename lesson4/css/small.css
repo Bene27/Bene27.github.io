@@ -35,12 +35,15 @@ nav button{margin: 2rem 2%;
 
 nav li .hide{display:none;}
 
+body{background-color:#ADE8F4;}
+
+
 p{font-family:'Playfair Display' , serif;
  font-size: 30px;
  font-style: italic;
 }
 
-a:hover{background-color:blue;
+a:hover{background-color:lightskyblue;
 }
 a:active{background-color:blue;
 }

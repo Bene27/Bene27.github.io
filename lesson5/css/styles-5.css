@@ -1,19 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemonada&family=Lobster&display=swap');
-          
+@media(min-width:992px){
+
+     @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Playfair+Display:ital@1&display=swap');
+    
+     
+
 
 h1  {font-family:'Lemonada', cursive;
     color:#03045E;
 }
+     
+    
+    #logo{float: left;
+         border-radius: 50%;
+         border-style: solid;
+        
+    }
+    
+    
+    header {font-style: italic;
+            font-family:'Lemonada', cursive;
+             text-align: center;
+             background-color:#0096C7;
+    
+    }
+    nav ul li a {padding:.6rem 1rem}
+    
+    nav button{display: none;}
+    
+     nav ul li {float:left}
+    
+    nav ul li a {border: none;
+                 color:black;
+                border-right: 1px soild lightblue;
+                padding:.6rem 1rem;
+                }
+    nav ul {margin-left:2%;
+            background-color:lightblue;
+         }
+    
+    nav ul.hide{display: block;}
+    
+    body{background-color:#ADE8F4;
+        font-size:30px;
+        font-family:'Lobster', cursive;
+        display: block;
+        }
+    
+    p{font-family:'Playfair Display' , serif;
+     font-size: 30px;
+     font-style: italic;
+    }
+    
+    a:hover{background-color:lightskyblue;}
+    
+    footer{border: solid;
+          text-align: center;
+          font-size:20px;
+          background-color:#0096C7;
+    }
 
-#hamburger{ background-color:#0096C7;
-            border-style: solid;
-            list-style: none; 
-            display: grid;
-            grid-template-columns:repeat(auto-fit,minmax(6em, 1fr)); 
-            margin:0;
-}
 
-a:hover{background-color:blue;}
 
 h2{font-family:'Bebas Neue', cursive;
     color:#023E8A;
@@ -24,14 +70,10 @@ p::first-letter {font-size:35px;
     color:#00B4D0;;
 }
 
-body{background-color:#ADE8F4;
-    font-size:30px;
-    font-family:'Lobster', cursive;
-    display: block;
-}
-
 footer{border: solid;
     text-align: center;
     font-size:20px;
     background-color:#0096C7;
+}
+
 }

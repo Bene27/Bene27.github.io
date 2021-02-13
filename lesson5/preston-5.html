@@ -8,19 +8,21 @@
         <link href="css/styles-5.css" rel="stylesheet">
         <link href="css/medium.css" rel="stylesheet">
         <link href="css/small.css" rel="stylesheet">
-        <script href="main-4.js/main-4.js"></script>
+        <script src="5js/script5.js"></script>
     </head>
 
     <body>
 
         <header>
-       <picture><img style="border-radius:50%;" src="images-5.jpg/logo image.jpg"alt="logo image" width="130px" height="130px"/></picture>
+       <picture><img id="logo" style="float: left;border: #023E8A; border: radius 50%;" src="images-5.jpg/logo image.jpg"alt="logo image" width="130px" height="130px"/></picture>
         <p style="font-size: 45px;">Preston Weather Site</p>
         <p style="font-size:30px;">Accurate weather predictions</p>
        
         
-        <nav id="Hamburger">
-         <ul>
+        <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+
+         <ul id="menu" class="hide">
                 <li><a target="_blank" href="#">Home</a></li>
                 <li><a target="_blank" href="#">Preston</a></li>
                 <li><a target="_blank" href="#">Soda Springs</a></li>
@@ -35,15 +37,29 @@
 
         <main>
             <h1>Preston Idaho:</h1>
+            <img src="images-5.jpg/Article image.jfif" alt="preston" width="100%" height="350px"/>
             <br>
-         <p>Hero w/weather summary</p>
-         <br>
-         <p>5-Day Forecast</p>
-         <br>
-         <p>Article</p>
+
+        <div style="border:#023E8E 10px solid;">
+         <h1>Weather summary:<h1>
+             <ul style="list-style: none;">
+             <li>Currently:Raining</li>
+             <li>High:33<sup>.</sup>F</li>
+             <li>Wind Chill:1<sup>.</sup>F</li>
+             <li>Humidity:54.1%</li>
+             <li>Wind speed:13 mph</li>
+             </ul>
+         </div>
+
+         <h1>5-Day Forecast</h1>
+         <img src="images-5.jpg/weather image.jfif" alt="weather image" width="100%" height="350px"/>
+        
+        
+         <h1>Article</h1>
+         <img src="images-5.jpg/Better article image.jfif" alt="Article image" width="100%" height="350px"/>
          
 
-         <p>
+         <p style="border:#023E8A 10px solid;">
             Lorem ipsum dolor sit amet, sit esse suscipit ea, illum inani nam ut, choro tantas eloquentiam ad est. Sed elit iusto an, debet mucius ex qui. Per et amet feugait reprimique. Quo esse aeque et.
 
             Mel ex paulo utroque, repudiare adolescens voluptatibus vim at. Nam in exerci veritus, quo et diam percipit. Scripta diceret reprimique duo cu, ea vis eros oporteat atomorum. Pro utinam delicatissimi cu, vidit phaedrum maluisset pri in. Cum ei reque pertinax maluisset, labitur repudiandae disputationi qui an. Ne ornatus gloriatur necessitatibus pro, wisi quidam ea vim. Usu diam oblique persequeris no, id possit numquam temporibus nec.
@@ -55,27 +71,37 @@
             Ad sanctus debitis adipiscing mea, sed no error dicam aliquando. Sit cu habemus apeirian. Ei iudico nostrum vivendum vix, vis aeque quaeque propriae ei. Has ne voluptaria expetendis, suas ferri habemus id eam.
          </p> 
          
-
-         <br>
-         <img src="#"/>
          <br>
 
-         <p>Contract information</p>
-         <a href="#">000 000 0000</a>
-         <br>
-         <a href="#">www.weather.com</a>
-
-         <nav id="social media">
-          <a target="_blank" href="https://www.facebook.com/"><img src="images-5.jpg/Facebook icon.png" alt="facebook" width="40px" height="40px"/></a>
-          <a target="_blank" href="https://www.instagram.com/accounts/login/"><img src="images-5.jpg/instagram icon.jfif" alt="instagram" width="40px" height="40px"/></a>
-          <a target="_blank" href="https://twitter.com/LOGIN"><img src="images-5.jpg/twitter icon.png"alt="twitter"  width="40px" height="40px"/></a>
-         </nav>
+         <h1>Contract information:</h1>
          
-        </main>
+         <p>Location:</p>
+         <img style="float: inline-start;" src="images-5.jpg/map.jfif"alt="map" width="250px" height="160px"/>
+         <br>
+         <p>Phone Number:</p>
+         <img style="float:inline-end;" src="images-5.jpg/telephone icon.jfif"alt="phone icon" width="40px" height="40px"/><a style="text-decoration:none;" href="#">555 555 5555</a>
+         <br>
+         <p>Email address:</p>
+         <img style="float:inline-end;" src="images-5.jpg/email icon.png" alt="email icon" width="40px" height="40px" /><a style="text-decoration: none;" href="#">www.weather.com</a>
+         <br>
+         <br>
+         
+          
+          <section>
+         <nav style="float:left;" id="social media">
+          <a style="text-decoration:none;" target="_blank" href="https://www.facebook.com/"><img src="images-5.jpg/Facebook icon.png" alt="facebook" width="40px" height="40px"/></a>
+          <a style="text-decoration:none;" target="_blank" href="https://www.instagram.com/accounts/login/"><img src="images-5.jpg/instagram icon.jfif" alt="instagram" width="40px" height="40px"/></a>
+          <a style="text-decoration:none;" target="_blank" href="https://twitter.com/LOGIN"><img src="images-5.jpg/twitter icon.png"alt="twitter"  width="40px" height="40px"/></a>
+         </nav>
+        </section>
 
-        <footer>
+        </main>
+          <br>
+          <br>
+        <footer style="border:#023E8A 10px solid;text-align: center;
+        font-size:20px;background-color:#0096C7;">
             <p>@Benedict Da Silva|BYU-I | WDD230 | Winter2021 | South Africa</p>
-    <nav>
+    <nav> 
         <a target="_blank" href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
     </nav>
         </footer>
