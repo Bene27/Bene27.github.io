@@ -1,13 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Playfair+Display:ital@1&display=swap');
 
- 
- @media(min-width:992px){
- 
- @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Playfair+Display:ital@1&display=swap');
-
- h1{text-align: center;
+ h4{text-align: center;
     font-family:'Lemonada', cursive;
     color:#03045E;
-    border:#023E8A 10px solid;
+    border:#023E8A 10px solid;   
 }
 
 body{background-color:lightgray;
@@ -21,7 +17,5 @@ body{background-color:lightgray;
  }
 
  img{height: 350px;
-     width:350px;
+     width:100%;
     }
-
- }
