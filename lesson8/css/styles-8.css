@@ -65,9 +65,9 @@ h2{font-family:'Bebas Neue', cursive;
    color:#023E8A;
 }
 
-p::first-letter {font-size:35px;
-   font-family:'Lemonada', cursive;
-   color:#00B4D0;;
+input::first-letter {font-size:35px;
+                font-family:'Lemonada', cursive;
+                color:#00B4D0;;
 }
 
 input{background-color:lightblue;

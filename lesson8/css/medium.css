@@ -36,10 +36,11 @@
         display: block;
     }
 
-    p::first-letter {font-size:35px;
+    input::first-letter {font-size:35px;
                     font-family:'Lemonada', cursive;
                     color:#00B4D0;;
     }
+
     p{font-family:'Playfair Display' , serif;
      font-size: 30px;
      font-style: italic;
@@ -49,8 +50,8 @@
     }
     
     input{background-color:lightblue;
-        height: 40px;
-        width:500px;
+          height: 40px;
+          width:500px;
      }
     
     footer{border: solid;
