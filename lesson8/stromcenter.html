@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Storm Center</title>
+        <link href="css/styles-8.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <script src="8js/script8.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+       <picture><img id="logo" style="float: left;border: #023E8A; border: radius 50%;" src="images-8.jpg/logo image.jpg"alt="logo image" width="130px" height="130px"/></picture>
+        <p style="font-size: 45px;">Preston Weather Site</p>
+        <p style="font-size:30px;">Accurate weather predictions</p>
+       
+        
+        <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+
+         <ul id="menu" class="hide">
+                <li><a target="_blank" href="#">Home</a></li>
+                <li><a target="_blank" href="#">Preston</a></li>
+                <li><a target="_blank" href="#">Soda Springs</a></li>
+                <li><a target="_blank" href="#">Fish Haven</a></li>
+                <li><a target="_blank" href="stromcenter.html">Storm Center</a></li>
+                <li><a target="_blank" href="#">Gallery</a></li>
+        </ul>    
+        </nav>
+
+        </header>
+
+
+        <main>
+            <h1>Storm Center:</h1>
+            <h2>REPORT A STORM!</h2>
+            <img src="images-8.jpg/Article image.jfif" alt="preston" width="100%" height="350px"/>
+            <br>
+
+<div style="border: #023E8A solid 10px;">
+
+       <form action="report.html" method="POST">
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="name" required/>
+           <br>
+
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email" placeholder="das2000@byui.edu"/>
+           <br>
+
+           <label for="number">Phone number:</label>
+           <input type="number" id="number" name="number" required/>
+           <br>
+
+           <label for="zip">Zip code:</label>
+           <input type="number" id="zip" name="zip" required/>
+           <br>
+
+           <label for="date">Storm Date:</label>
+           <input type="date" id="date" name="date"/>
+           <br>
+
+           <label for="list">Storm Type:</label>
+           <input type="list" id="list" name="list"/>
+           <datalist id="list">
+               <option value="Flash">
+               <option value="Flood">
+               <option value="Hail">
+               <option value="Hurricane">
+               <option value="Thunderstorm">
+               <option value="Tornado">
+           </datalist>
+           <br>
+
+           <label for="range">Storm Severity:</label>
+           <input type="range" id="range" name="range" min="1" max="10">
+           <br>
+
+           <label for="select">Storm Region:</label>
+           <select id="select" name="select">
+               <option value="Other Region" disabled >Select Region</option>
+               <option value="Preston">Preston</option>
+               <option value="Soda Springs">Soda Springs</option>
+               <option value="Fish Haven">Fish Haven</option>
+           </select>
+           <br>
+
+           <label for="danger">User in Danger Level:</label>
+           <input type="radio" id="danger" name="radio" vaule="Yes" value="Maybe" value="No">
+           <br>
+
+           <label for="info">Additional Information/Comments:</label>
+           <input type="textarea" id="info" name="info">
+           <br>
+
+           <label for="submit">Submit</label>
+           <button type="submit" id="submit" name="submit">Submit</button>
+           
+
+       </form>
+</div>     
+        
+        <div style="border: #023E8A;">
+        
+         <img src="images-8.jpg/Better article image.jfif"alt="Article image" width="100%" height="350px"/>
+         
+         </div>
+
+         <br>
+         <div style="border: #023E8A solid 10px;">
+
+         <h1>Contract information:</h1>
+         
+         <p>Location:</p>
+         <img style="float: inline-start;" src="images-8.jpg/map.jfif"alt="map" width="250px" height="160px"/>
+         <br>
+         <p>Phone Number:</p>
+         <img style="float:inline-end;" src="images-8.jpg/telephone icon.jfif"alt="phone icon" width="40px" height="40px"/><a style="text-decoration:none;" href="#">555 555 5555</a>
+         <br>
+         <p>Email address:</p>
+         <img style="float:inline-end;" src="images-8.jpg/email icon.png" alt="email icon" width="40px" height="40px" /><a style="text-decoration: none;" href="#">www.weather.com</a>
+         <br>
+         <br>
+         
+          <section>
+         <nav style="float:left;" id="social media">
+          <a style="text-decoration:none;" target="_blank" href="images-8.jpg/Facebook icon.png"><img src="images-5.jpg/Facebook icon.png" alt="facebook" width="40px" height="40px"/></a>
+          <a style="text-decoration:none;" target="_blank" href="images-8.jpg/instagram icon.jfif"><img src="images-5.jpg/instagram icon.jfif" alt="instagram" width="40px" height="40px"/></a>
+          <a style="text-decoration:none;" target="_blank" href="images-8.jpg/twitter icon.png"><img src="images-5.jpg/twitter icon.png"alt="twitter"  width="40px" height="40px"/></a>
+         </nav>
+        </section>
+         </div>
+         
+        </main>
+          <br>
+          <br>
+        <footer style="border:#023E8A 10px solid;text-align: center;
+        font-size:20px;background-color:#0096C7;">
+            <p>@Benedict Da Silva|BYU-I | WDD230 | Winter2021 | South Africa</p>
+    <nav> 
+        <a target="_blank" href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+    </nav>
+        </footer>
+
+    </body>
+</html>
