@@ -55,6 +55,9 @@ a:hover{background-color:lightskyblue;
 a:active{background-color:blue;
 }
 
+input{background-color:lightblue;
+ }
+
 footer{border: solid;
        text-align: center;
        font-size:20px;
