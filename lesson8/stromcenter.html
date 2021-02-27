@@ -44,44 +44,52 @@
 <div style="border: #023E8A solid 10px;">
 
        <form action="report.html" method="POST">
-           <label for="name">Name:</label>
+           <label for="name">Name:*</label>
+           <br>
            <input type="text" id="name" name="name" required/>
            <br>
 
            <label for="email">Email:</label>
-           <input type="email" id="email" name="email" placeholder="das2000@byui.edu"/>
+           <br>
+           <input type="email" id="email" name="email" placeholder="das2000@byui.edu" inputmode="email"/>
            <br>
 
-           <label for="number">Phone number:</label>
-           <input type="tel" id="number" name="number" required/>
+           <label for="number">Phone number:*</label>
+           <br>
+           <input type="tel" id="number" name="number" placeholder="### ### ####" inputmode="numeric" required/>
            <br>
 
-           <label for="zip">Zip code:</label>
-           <input type="number" id="zip" name="zip" required/>
+           <label for="zip">Zip code:*</label>
+           <br>
+           <input type="number" id="zip" name="zip" inputmode="numeric" required/>
            <br>
 
            <label for="date">Storm Date:</label>
+           <br>
            <input type="date" id="date" name="date"/>
            <br>
 
-           <label for="list">Storm Type:</label>
-           <input type="list" id="list" name="list"/>
+           <label for="mylist">Storm Type:</label>
+           <input list="list"  id="mylist" name="mylist"/>
            <datalist id="list">
-               <option value="Flash">Flash</option>
-               <option value="Flood">Flood</option>
-               <option value="Hail">Hail</option>
-               <option value="Hurricane">Hurricane</option>
-               <option value="Thunderstorm">Thunderstorm</option>
-               <option value="Tornado">Tornado</option>
+               <option value="Flash">
+               <option value="Flood">
+               <option value="Hail">
+               <option value="Hurricane">
+               <option value="Thunderstorm">
+               <option value="Tornado">
            </datalist>
            <br>
 
            <label for="range">Storm Severity:</label>
-           <input type="range" id="range" name="range" min="1" max="10">
+           <br>
+           <input type="range" id="range" name="range" min="1" max="10" step="1">
            <br>
 
            <label for="select">Storm Region:</label>
-           <select id="select" name="select">
+           <br>
+           <select style="width: 500px; height: 40px; font-size:30px; background-color: lightblue;"id="select" name="select">
+               <br>
                <option value="Other Region" disabled >Select Region</option>
                <option value="Preston">Preston</option>
                <option value="Soda Springs">Soda Springs</option>
@@ -89,20 +97,26 @@
            </select>
            <br>
 
-           <label for="danger">User in Danger Level:</label>
-           <input type="radio" id="danger" name="radio">
-           <label value="Yes" name="danger">Yes</label>
-           <label value="Maybe" name="danger">Maybe</label>
-           <label value="No" name="danger">No</label>
+         
+           <label>User in Danger:</label>
+           <div style="display:inline-block;">
+           <input type="radio" id="yes" name="danger" value="yes">
+           <label for="yes" name="yes">Yes</label>
+           <input type="radio" id="danger2" name="danger" value="maybe">
+           <label value="maybe" name="maybe">Maybe</label>
+           <input type="radio" id="danger3" name="danger" value="no">
+           <label for="no" name="no">No</label>
+        </div>
 
            <br>
 
            <label for="info">Additional Information/Comments:</label>
-           <input type="textarea" id="info" name="info">
+           <br>
+           <textarea style="height: 300px; width: 100%; background-color:lightblue; font-size:40px; ;" >Additional Information/Comments:</textarea>
            <br>
 
         
-           <button type="submit" id="submit" name="submit">Submit</button>
+           <button style="width: 150px; height:70px;"type="submit" id="submit" name="submit">Report Storm</button>
            
 
        </form>
@@ -114,30 +128,7 @@
          
          </div>
 
-         <br>
-         <div style="border: #023E8A solid 10px;">
-
-         <h1>Contract information:</h1>
-         
-         <p>Location:</p>
-         <img style="float: inline-start;" src="images-8.jpg/map.jfif"alt="map" width="250px" height="160px"/>
-         <br>
-         <p>Phone Number:</p>
-         <img style="float:inline-end;" src="images-8.jpg/telephone icon.jfif"alt="phone icon" width="40px" height="40px"/><a style="text-decoration:none;" href="#">555 555 5555</a>
-         <br>
-         <p>Email address:</p>
-         <img style="float:inline-end;" src="images-8.jpg/email icon.png" alt="email icon" width="40px" height="40px" /><a style="text-decoration: none;" href="#">www.weather.com</a>
-         <br>
-         <br>
-         
-          <section>
-         <nav style="float:left;" id="social media">
-          <a style="text-decoration:none;" target="_blank" href="images-8.jpg/Facebook icon.png"><img src="images-5.jpg/Facebook icon.png" alt="facebook" width="40px" height="40px"/></a>
-          <a style="text-decoration:none;" target="_blank" href="images-8.jpg/instagram icon.jfif"><img src="images-5.jpg/instagram icon.jfif" alt="instagram" width="40px" height="40px"/></a>
-          <a style="text-decoration:none;" target="_blank" href="images-8.jpg/twitter icon.png"><img src="images-5.jpg/twitter icon.png"alt="twitter"  width="40px" height="40px"/></a>
-         </nav>
-        </section>
-         </div>
+        
          
         </main>
           <br>

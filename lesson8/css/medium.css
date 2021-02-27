@@ -48,6 +48,11 @@
     a:hover{background-color:lightskyblue;
     }
     
+    input{background-color:lightblue;
+        height: 40px;
+        width:500px;
+     }
+    
     footer{border: solid;
            text-align: center;
            font-size:20px;
