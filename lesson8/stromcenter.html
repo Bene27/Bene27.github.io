@@ -53,7 +53,7 @@
            <br>
 
            <label for="number">Phone number:</label>
-           <input type="number" id="number" name="number" required/>
+           <input type="tel" id="number" name="number" required/>
            <br>
 
            <label for="zip">Zip code:</label>
@@ -67,12 +67,12 @@
            <label for="list">Storm Type:</label>
            <input type="list" id="list" name="list"/>
            <datalist id="list">
-               <option value="Flash">
-               <option value="Flood">
-               <option value="Hail">
-               <option value="Hurricane">
-               <option value="Thunderstorm">
-               <option value="Tornado">
+               <option value="Flash">Flash</option>
+               <option value="Flood">Flood</option>
+               <option value="Hail">Hail</option>
+               <option value="Hurricane">Hurricane</option>
+               <option value="Thunderstorm">Thunderstorm</option>
+               <option value="Tornado">Tornado</option>
            </datalist>
            <br>
 
@@ -90,14 +90,18 @@
            <br>
 
            <label for="danger">User in Danger Level:</label>
-           <input type="radio" id="danger" name="radio" vaule="Yes" value="Maybe" value="No">
+           <input type="radio" id="danger" name="radio">
+           <label value="Yes" name="danger">Yes</label>
+           <label value="Maybe" name="danger">Maybe</label>
+           <label value="No" name="danger">No</label>
+
            <br>
 
            <label for="info">Additional Information/Comments:</label>
            <input type="textarea" id="info" name="info">
            <br>
 
-           <label for="submit">Submit</label>
+        
            <button type="submit" id="submit" name="submit">Submit</button>
            
 
