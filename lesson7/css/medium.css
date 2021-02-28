@@ -17,10 +17,27 @@ body{background-color:lightgray;
         text-align: center;
         font-size:20px;
         background-color:#0096C7;
+        position:fixed;
+
  }
 
  img{height: 350px;
      width:350px;
     }
+    #image1{float: left;
+    }
+    
+    #image3{float: left;
+    }
+    #image5{float: left;
+    }
+    #image2{float: right;
+    }
+    #image4{float: right;
+    }
+    #image6 {float: right;
+    }
 
+
+    
 }
