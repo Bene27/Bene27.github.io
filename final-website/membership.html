@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Membership</title>
+        <link href="css/small.css" rel="stylesheet"/>
+        <link href="css/medium.css" rel="stylesheet"/>
+        <link href="css/styles.css" rel="stylesheet"/>
+        <link href="css/normalize.css" rel="stylesheet"/>
+        <script src="main.js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <picture><img id="logo" style="float: left;border:black; border: radius 50%;" src="#"alt="logo image" width="130px" height="130px"/></picture>
+            <p style="font-size: 45px;"></p>
+            <p style="font-size:30px;">Chamber of Commerce</p>
+           
+            
+            <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+    
+             <ul id="menu" class="hide">
+                    <li><a target="_self" href="final.html">Home</a></li>
+                    <li><a target="_self" href="membership.html">Membership</a></li>
+                    <li><a target="_self" href="#"></a></li>
+                    <li><a target="_self" href="#"></a></li>
+                    <li><a target="_self" href="#"></a></li>
+                    <li><a target="_blank" href="#"></a></li>
+            </ul>    
+            </nav>
+        </header>
+        <main>
+         
+            <h1>Membership:</h1>
+            <h2>Join Our Membership:!</h2>
+            <img src="images-8.jpg/Article image.jfif" alt="preston" width="100%" height="350px"/>
+            <br>
+
+<div style="border: #023E8A solid 10px;">
+
+       <form>
+           <label for="name">Name:*</label>
+           <br>
+           <input type="text" id="name" name="name" required/>
+           <br>
+
+           <label for="email">Email:</label>
+           <br>
+           <input type="email" id="email" name="email" placeholder="das2000@byui.edu" inputmode="email"/>
+           <br>
+
+           <label for="number">Phone number:*</label>
+           <br>
+           <input type="tel" id="number" name="number" placeholder="011 9510 500" inputmode="numeric" required/>
+           <br>
+
+           <label for="zip">Zip code:*</label>
+           <br>
+           <input type="number" id="zip" name="zip" inputmode="numeric" required/>
+           <br>
+
+           <label for="date">Join Date:</label>
+           <br>
+           <input type="date" id="date" name="date"/>
+           <br>
+
+           <label for="mylist">Contribution:</label>
+           <input list="list"  id="mylist" name="mylist"/>
+           <datalist id="list">
+               <option value="Donation">
+               <option value="Advocacy">
+               <option value="Social Media Marketing">
+               <option value="Local Support">
+               <option value="Fundraiser">
+               <option value="Government contributions">
+           </datalist>
+           <br>
+
+           <label for="range">:</label>
+           <br>
+           <input type="range" id="range" name="range" min="1" max="10" step="1">
+           <br>
+
+           <label for="select">Storm Region:</label>
+           <br>
+           <select style="width: 500px; height: 40px; font-size:30px; background-color:whitesmoke;"id="select" name="select">
+               <br>
+               <option value="Other Area" disabled >Select Area</option>
+               <option value="Sandton">Sandton</option>
+               <option value="Midrand">Midrand</option>
+               <option value="Randburg">Randbang</option>
+               <option value="Fourways">Fourways</option>
+           </select>
+           <br>
+
+         
+           <label>Recommandation:</label>
+        <div style="display:inline-block;">
+           <input type="radio" id="yes" name="danger" value="yes">
+           <label for="yes" name="yes">Yes</label>
+           <input type="radio" id="danger2" name="danger" value="maybe">
+           <label value="maybe" name="maybe">Maybe</label>
+           <input type="radio" id="danger3" name="danger" value="no">
+           <label for="no" name="no">No</label>
+        </div>
+
+           <br>
+
+           <label for="info">Additional Information/Comments:</label>
+           <br>
+           <textarea style="height: 300px; width: 100%; background-color:whitesmoke; font-size:40px; ;" >Additional Information/Comments:</textarea>
+           <br>
+
+        
+           <button style="width: 150px; height:70px;"type="submit" id="submit" name="submit">SUBMIT</button>
+           
+
+       </form>
+</div>  
+        
+        <div style="border:black;">
+        
+         <img src="images.jpg/Johannesburg.jfif"alt="Article image" width="100%" height="350px"/>
+         
+         </div>
+        </main>
+
+        <footer>
+            <h1>Contract Us:</h1>
+            <a style="text-decoration: none;" target="blank" href="#"><img src="images.jpg/email.png"alt="email"/>www.discovery.com</a>
+            <a style="text-decoration: none;"target="blank" href="#"><img src="images.jpg/phone.jpg"alt="phone"/>011 9510 233</a>
+            <a style="text-decoration: none;" target="blank" href="https://twitter.com/LOGIN"><img src="images.jpg/twitter.png"alt="twitter"/>@discovery</a>
+            <a style="text-decoration: none;"  target="blank" href="https://www.facebook.com/"><img src="images.jpg/facebook.png"alt="facebook"/>@discovery_founder</a>
+            <a style="text-decoration: none;" target="blank" href="https://www.instagram.com/accounts/login/"><img src="images.jpg/Instagram.png"alt="instagram"/>@discovery_founder</a>
+             
+            <p>@Benedict Da Silva| Compiled on the 01 April 2021 |BYU-I | WDD230 | Winter2021 | South Africa</p>
+
+        </footer>
+    </body>
+</html>
