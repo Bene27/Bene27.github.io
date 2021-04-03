@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Nanum+Gothic&family=New+Tegomin&family=Oswald&display=swap');
+
+
+
+#logo{float:left;
+    border-radius: 20px;
+    border-style: solid #081c15;
+    margin-left: 10px;
+   
+}
+
+header   {font-family: 'Merriweather', serif;
+         text-align: center;
+         color:black;
+         background-color:#40916c;
+}
+nav{font-family: 'Merriweather', serif;
+}
+
+nav ul{list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+nav ul a{display:block;
+        color:black;
+        padding: .8rem 2rem;
+        text-decoration: none;
+        border-top: 1px solid white;
+        font-size: 25px;
+    }
+
+nav button{margin: 2rem 2%;
+          background-color:grey;
+          border:none;
+          font-size:1,6rem;
+    }
+
+nav li .hide{display:none;
+}
+
+body{background-color:white;
+     margin-left: 10px;
+     margin-right: 10px;
+    }
+
+p{font-family:'Nanum Gothic', sans-serif;
+  font-size: 30px;
+}
+
+a:hover{color:purple;
+}
+
+a:active{background-color:white;
+}
+
+footer{background-color:#40916c;
+      text-align: center;
+      font-family:'Oswald', sans-serif; 
+   }
+input{background-color:#d8f3dc;
+      height: 40px;
+      width:500px;
+ }
+
+ label{font-family:'New Tegomin', serif ;
+      font-size: 30px;
+  }
+
+ a {font-size: 25px;
+    display:block;
+}
+
+    main{margin-left: 50px;
+        margin-right: 50px;
+        font-size: 25px;
+        font-family: 'Merriweather', serif;
+   }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+   .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

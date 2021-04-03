@@ -11,9 +11,9 @@
     </head>
     <body>
         <header>
-            <picture><img id="logo" style="float: left;border:black; border: radius 50%;" src="#"alt="logo image" width="130px" height="130px"/></picture>
-            <p style="font-size: 45px;"></p>
-            <p style="font-size:30px;">Chamber of Commerce</p>
+            <picture><img id="logo" style="float: left;border:black; border: radius 50%;" src="images.jpg/A better logo.jfif"alt="logo image" width="130px" height="130px"/></picture>
+            <p style="font-size: 45px;">Discovery</p>
+            <p style="font-size:30px;">Chamber of Commerce of Johannesburg</p>
            
             
             <nav class="clearfix">
@@ -22,10 +22,10 @@
              <ul id="menu" class="hide">
                     <li><a target="_self" href="final.html">Home</a></li>
                     <li><a target="_self" href="membership.html">Membership</a></li>
-                    <li><a target="_self" href="#"></a></li>
-                    <li><a target="_self" href="#"></a></li>
-                    <li><a target="_self" href="#"></a></li>
-                    <li><a target="_blank" href="#"></a></li>
+                    <li><a target="_self" href="johannesburg.html">Johannesburg</a></li>
+                    <li><a target="_self" href="directory.html">Directory</a></li>
+                    <li><a target="_self" href="contact.html">Contact Details</a></li>
+                    <li><a target="_blank" href="resource.html">Resources</a></li>
             </ul>    
             </nav>
         </header>
@@ -33,30 +33,55 @@
          
             <h1>Membership:</h1>
             <h2>Join Our Membership:!</h2>
-            <img src="images-8.jpg/Article image.jfif" alt="preston" width="100%" height="350px"/>
+            <img src="images.jpg/membership.jfif" alt="image" width="100%" height="350px"/>
             <br>
 
-<div style="border: #023E8A solid 10px;">
+<div>
 
        <form>
-           <label for="name">Name:*</label>
+           <label for="firstname">First Name:*</label>
            <br>
-           <input type="text" id="name" name="name" required/>
-           <br>
-
-           <label for="email">Email:</label>
-           <br>
-           <input type="email" id="email" name="email" placeholder="das2000@byui.edu" inputmode="email"/>
+           <input type="text" id="firstname" name="firstname" required/>
            <br>
 
-           <label for="number">Phone number:*</label>
+           <label for="lastname">Last Name:*</label>
            <br>
-           <input type="tel" id="number" name="number" placeholder="011 9510 500" inputmode="numeric" required/>
+           <input type="text" id="lastname" name="lastname" required/>
+           <br>
+            
+           <label for="title">Title:</label>
+           <br>
+           <input type="text" id="Title" name="title"/>
+           <br>
+
+           <label for="email">Email:*</label>
+           <br>
+           <input type="email" id="email" name="email" placeholder="das2000@byui.edu" inputmode="email" required/>
+           <br>
+
+           <label for="number">Cell Phone:</label>
+           <br>
+           <input type="tel" id="number" name="number" placeholder="011 9510 500" inputmode="numeric"/>
+           <br>
+
+           <label for="business">Business Name:*</label>
+           <br>
+           <input type="text" id="Business" name="business" required/>
+           <br>
+            
+           <label for="address">Business Address:</label>
+           <br>
+           <input type="text" id="address" name="address"/>
            <br>
 
            <label for="zip">Zip code:*</label>
            <br>
            <input type="number" id="zip" name="zip" inputmode="numeric" required/>
+           <br>
+           
+           <label for="website"> Business Website:</label>
+           <br>
+           <input type="text" id="website" name="website"/>
            <br>
 
            <label for="date">Join Date:</label>
@@ -76,43 +101,41 @@
            </datalist>
            <br>
 
-           <label for="range">:</label>
+           <label for="range"> Desire to participate in a Survey:</label>
            <br>
            <input type="range" id="range" name="range" min="1" max="10" step="1">
            <br>
 
-           <label for="select">Storm Region:</label>
+           <label for="select">Membership Selection:</label>
            <br>
-           <select style="width: 500px; height: 40px; font-size:30px; background-color:whitesmoke;"id="select" name="select">
+           <select style="width: 500px; height: 40px; font-size:30px; background-color:#d8f3dc;"id="select" name="select">
                <br>
-               <option value="Other Area" disabled >Select Area</option>
-               <option value="Sandton">Sandton</option>
-               <option value="Midrand">Midrand</option>
-               <option value="Randburg">Randbang</option>
-               <option value="Fourways">Fourways</option>
+               <option value="Select" disabled >Select</option>
+               <option value="Non-profit">Non-profit</option>
+               <option value="Bronze">Bronze</option>
+               <option value="Silver">Silver</option>
+               <option value="Gold">Gold</option>
            </select>
            <br>
 
          
-           <label>Recommandation:</label>
-        <div style="display:inline-block;">
-           <input type="radio" id="yes" name="danger" value="yes">
-           <label for="yes" name="yes">Yes</label>
-           <input type="radio" id="danger2" name="danger" value="maybe">
-           <label value="maybe" name="maybe">Maybe</label>
-           <input type="radio" id="danger3" name="danger" value="no">
-           <label for="no" name="no">No</label>
+           <label>Where did you hear about us?</label>
+        <div style="display:inline-block; font-size: 15px;" >
+           <input type="radio" id="hear1" name="internet" value="internet">
+           <label for="internet" name="internet">Internet</label>
+           <input type="radio" id="hear2" name="Friend" value="Friend">
+           <label value="Friend" name="Friend">Friend</label>
+           <input type="radio" id="hear3" name="Other" value="Other">
+           <label for="Other" name="Other">Other</label>
         </div>
 
            <br>
 
-           <label for="info">Additional Information/Comments:</label>
+           <label for="info">Business Description:</label>
            <br>
-           <textarea style="height: 300px; width: 100%; background-color:whitesmoke; font-size:40px; ;" >Additional Information/Comments:</textarea>
+           <textarea style="height: 200px; width: 38%; background-color:#d8f3dc;font-size:40px; ;" >Business Description:</textarea>
            <br>
-
-        
-           <button style="width: 150px; height:70px;"type="submit" id="submit" name="submit">SUBMIT</button>
+           <button style="width: 100px; height:50px;"type="submit" id="submit" name="submit">SUBMIT</button>
            
 
        </form>
@@ -126,14 +149,8 @@
         </main>
 
         <footer>
-            <h1>Contract Us:</h1>
-            <a style="text-decoration: none;" target="blank" href="#"><img src="images.jpg/email.png"alt="email"/>www.discovery.com</a>
-            <a style="text-decoration: none;"target="blank" href="#"><img src="images.jpg/phone.jpg"alt="phone"/>011 9510 233</a>
-            <a style="text-decoration: none;" target="blank" href="https://twitter.com/LOGIN"><img src="images.jpg/twitter.png"alt="twitter"/>@discovery</a>
-            <a style="text-decoration: none;"  target="blank" href="https://www.facebook.com/"><img src="images.jpg/facebook.png"alt="facebook"/>@discovery_founder</a>
-            <a style="text-decoration: none;" target="blank" href="https://www.instagram.com/accounts/login/"><img src="images.jpg/Instagram.png"alt="instagram"/>@discovery_founder</a>
-             
-            <p>@Benedict Da Silva| Compiled on the 01 April 2021 |BYU-I | WDD230 | Winter2021 | South Africa</p>
+            
+            <p>@Benedict Da Silva| Compiled on the 02 April 2021 |BYU-I | WDD230 | Winter2021 | South Africa</p>
 
         </footer>
     </body>
