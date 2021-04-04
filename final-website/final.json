@@ -1,7 +1,10 @@
-[
-
 {
-    
-}
-
-]
+    "aggregateHours": 24,
+    "combinationMethod": "aggregate",
+    "contentType": "json",
+    "unitGroup": "metric",
+    "locationMode": "single",
+    "key": "K7LP4TY7CB3DMW6D58R7HDEUH",
+    "dataElements": "default",
+    "locations": "Johannesburg South Africa"
+  }

@@ -82,4 +82,30 @@
   .event2{display:inline-block;
           margin-left:0 auto;
   }
+
+  .card {
+    
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    width: 70%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 black;
+  }
+  
+  .directory {
+    padding: 2px 16px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    border-radius: 5px; 
+  }
+  
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
 }
